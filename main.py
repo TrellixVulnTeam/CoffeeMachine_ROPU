@@ -95,11 +95,6 @@ while turn_on:
         turn_on = False
     elif request == "espresso" or request == "latte" or request == "cappuccino":
         balance = wallet()
-        if request == "espresso":
-            game()
-        elif request == "latte":
-            game()
-        elif request == "cappuccino":
-            game()
+        game()
     else:
         print("Your answer is Invalid. Please try again.")
